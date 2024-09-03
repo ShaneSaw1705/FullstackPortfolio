@@ -29,11 +29,9 @@ const LandingPage = () => {
         <div className="w-full flex flex-col justify-center items-center">
             <div className="w-full h-screen flex justify-center items-center">
                 <div className="flex flex-col justify-evenly items-center h-[50vh] max-w-[1200px] lg:w-full lg:flex-row">
-                    <div className="text-4xl font-extrabold w-80">
-                        <h1>Hi 👋, my name is</h1>
-                        <h1>Shane Curtis,</h1>
+                    <div className="text-4xl font-extrabold w-1/2">
                         <h1>
-                            I build{" "}
+                            Shane Curtis👋🏻, Building{" "}
                             <TextTransition
                                 className="text-primary"
                                 springConfig={presets.wobbly}
