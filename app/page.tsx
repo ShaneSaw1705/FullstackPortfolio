@@ -14,13 +14,9 @@ const LandingPage = () => {
         "Advanced",
     ];
     const [currentAdjectiveIndex, setCurrentAdjectiveIndex] = useState(0);
-    const [animate, setAnimate] = useState(false); // New state for triggering animation
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setAnimate(true); // Start the animation
-            setTimeout(() => setAnimate(false), 1000); // End the animation after 1 second
-
             setCurrentAdjectiveIndex(
                 (prevIndex) => (prevIndex + 1) % adjectives.length,
             );
