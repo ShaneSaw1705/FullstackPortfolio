@@ -4,7 +4,17 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import TextTransition, { presets } from "react-text-transition";
-import { TbBrandReact, TbBrandTypescript, TbBrandNodejs, TbBrandGolang, TbBrandHtml5, TbBrandCss3, TbBrandTailwind, TbBrandNextjs, TbBrandCSharp } from "react-icons/tb";
+import {
+  TbBrandReact,
+  TbBrandTypescript,
+  TbBrandNodejs,
+  TbBrandGolang,
+  TbBrandHtml5,
+  TbBrandCss3,
+  TbBrandTailwind,
+  TbBrandNextjs,
+  TbBrandCSharp
+} from "react-icons/tb";
 
 const Hero = () => {
   const adjectives = [
