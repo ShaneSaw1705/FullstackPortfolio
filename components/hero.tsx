@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
         </div>
         <img
-          className="mask mask-hexagon min-w-80"
-          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
+          className="mask mask-hexagon max-w-80"
+          src="https://media.licdn.com/dms/image/v2/D4E03AQHFPPganKJp9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720155550825?e=1730937600&v=beta&t=IXOjyJNZ5cIcTl8SRi_pN8iuNjecTOmh6E8jxY1F8gU"
         />
       </div>
       <div className="flex flex-row gap-4 justify-start items-center *:text-2xl">
